@@ -1,11 +1,11 @@
 package com.example;
 
 import java.util.Locale;
-import com.teamunify.i18n.EscapeFunction;
-import com.teamunify.i18n.GlobalLanguageSettingsProvider;
 import com.teamunify.i18n.I;
-import com.teamunify.i18n.LanguageSetting;
-import com.teamunify.i18n.ThreadLocalLanguageSettingsProvider;
+import com.teamunify.i18n.escape.EscapeFunction;
+import com.teamunify.i18n.settings.GlobalLanguageSettingsProvider;
+import com.teamunify.i18n.settings.LanguageSetting;
+import com.teamunify.i18n.settings.ThreadLocalLanguageSettingsProvider;
 
 public class Main {
 
