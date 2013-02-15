@@ -1,5 +1,5 @@
 if [ -z "$1" ]; then
-   echo "Please specify which language_country suffix you want to compile (e.g. en_US, fr, etc.)"
+   echo "Please specify which language_country suffix(es) you want to compile (e.g. en_US, fr, etc.)"
    exit
 fi
 
