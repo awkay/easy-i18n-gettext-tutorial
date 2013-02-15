@@ -1,6 +1,6 @@
 if [ -z "$1" ]; then
    echo "Please specify which language_country suffix(es) you want to merge"
-   exit
+   exit 1
 fi
 
 for lang in $*

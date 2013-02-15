@@ -1,6 +1,6 @@
 if [ -z "$1" ]; then
    echo "Please specify which language_country suffix(es) you want to compile (e.g. en_US, fr, etc.)"
-   exit
+   exit 1
 fi
 
 mkdir -p target/classes > /dev/null 2>&1
